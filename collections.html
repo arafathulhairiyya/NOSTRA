@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link
+        href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+ <div id="offer" class="flex justify-center text-xs  text-white p-2 md:text-2xl" style="background-color:#1D232C ; ">
+        <p>Sign Up and </p>
+        <p class="font-bold ml-1 mr-1">GET 20% OFF</p>
+        <P> for your first Order</P>
+        <p id="closeicon" class="ml-10 cursor-pointer">X</p>
+    </div>
+    <div class="flex justify-between m-4 items-center sticky top-0 z-1 bg-white">
+        <h2 class="text-2xl font-bold ml-2" style="color:#1D232C;">Nostra</h2>
+        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6 cursor-pointer md:hidden mr-2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        <ul class=" justify-between gap-16 hidden md:flex">
+            <li> <a class="cursor-pointer hover:underline p-2" href="index.html">Home</a></li>
+            <li><a class="cursor-pointer hover:underline p-2 " href="#">New Arrival</a></li>
+            <li> <a class="cursor-pointer hover:underline p-2" href="#">Most wanted</a></li>
+            <li> <a class="cursor-pointer hover:underline p-2 " href="collections.html">Collections</a></li>
+            <li> <a class="cursor-pointer hover:underline p-2" href="Contact.html">Contact Us</a></li>
+        </ul>
+
+
+
+
+    </div>
+    <div>
+
+        <ul id="sidenav"
+            class="flex flex-col  gap-10 text-white fixed z-10 top-0 items-center pt-8 md:hidden transition-all duration-1000 "
+            style="background-color: #1D232C; width: 30%; height: 100vh; left:-30%;">
+            <div class="flex flex-col justify-end w-full pr-5 gap-5">
+                <p id="closenav" class="inline cursor-pointer text-right">X</p>
+
+                <li> <a class="cursor-pointer hover:underline p-2" href="index.html">Home</a></li>
+                <li><a class="cursor-pointer hover:underline p-2 " href="#">New Arrival</a></li>
+                <li> <a class="cursor-pointer hover:underline p-2" href="#">Most wanted</a></li>
+                <li> <a class="cursor-pointer hover:underline p-2 " href="collections.html">Collections</a></li>
+                <li> <a class="cursor-pointer hover:underline p-2" href="Contact.html">Contact Us</a></li>
+            </div>
+        </ul>
+    </div>
+<div class="container1 flex mt-5 ">
+<div class="filter ml-4 mt-5">
+    <div class="filter1">
+        <h1 class="font-bold text-xl mb-2">Occasion</h1>
+        <input type="checkbox" id="occasion1" > Summer
+        <br>
+        <input type="checkbox" id="occasion2"> Party
+        <br>
+        <input type="checkbox" id="occasion3"> Beach
+        <br>
+    </div>
+    <div class="filter2 mt-5">
+        <h1 class="font-bold text-xl mb-2">Colors</h1>
+        <input type="checkbox" id="occasion1" > Red
+        <br>
+        <input type="checkbox" id="occasion2"> Blue
+        <br>
+        <input type="checkbox" id="occasion3"> White
+        <br>
+        <input type="checkbox" id="occasion4"> Green
+        <br>
+    </div>
+     <div class="filter2 mt-5">
+        <h1 class="font-bold text-xl mb-2">Arrivals</h1>
+        <input type="checkbox" id="occasion1" > New
+        <br>
+        <input type="checkbox" id="occasion2"> Old
+        <br>
+        
+    </div>
+    </div>
+    
+<div class="products ml-10 ">
+    <div class="input-box">
+        <input type="text" id="search" placeholder="Search for products..." class=" w-full p-2 border border-gray-300 rounded" style="width:20rem; ">
+    </div>
+    <div class=" text-center grid grid-cols-2 md:grid-cols-4  gap-4 p-5 justify-items-center">
+<div class="p-5">
+    <img src="partyfloralshirt.jpg" alt="Best Seller" class="inline hover: shadow-xl transform hover:-translate-y-2" >
+    <p>partyfloralshirt</p>
+    <p>$20</p>
+</div>
+<div class="p-5">
+    <img src="mostwanted1.jpg" alt="Best Seller" class="inline hover: shadow-xl transform hover:-translate-y-2" >
+    <p>plaingreyshirt</p>
+    <p>$20</p>
+</div><div class="p-5">
+    <img src="floralsummershirt.jpg" alt="Best Seller" class="inline hover: shadow-xl transform hover:-translate-y-2" >
+    <p>floralsummershirt</p>
+    <p>$20</p>
+</div><div class="p-5">
+    <img src="floralsummershirt2.jpg" alt="Best Seller" class="inline hover: shadow-xl transform hover:-translate-y-2" >
+    <p>floralsummershirt</p>
+    <p>$20</p>
+</div><div class="p-5">
+    <img src="newarrival2.jpg" alt="Best Seller" class="inline hover: shadow-xl transform hover:-translate-y-2" >
+    <p>greyfloralzonanza</p>
+    <p>$20</p>
+</div><div class="p-5">
+    <img src="hibiscusflowershirt.jpeg" alt="Best Seller" class="inline hover: shadow-xl transform hover:-translate-y-2">
+    <p>hibiscusflowershirt</p>
+    <p>$20</p>
+</div><div class="p-5">
+    <img src="newarrival4.jpg" alt="Best Seller" class="inline hover: shadow-xl transform hover:-translate-y-2">
+    <p>Plainskinshirt</p>
+    <p>$20</p>
+</div>
+<div class="p-5">
+    <img src="newarrival3.jpg" alt="Best Seller" class="inline hover: shadow-xl transform hover:-translate-y-2">
+    <p>Plain blue shirt </p>
+    <p>$30</p>
+</div>
+
+
+
+    </div>
+</div>
+</div>
+ <section class="text-center FLEX flex-col">
+    <h1 class="text-lg font-bold mt-5 mb-2 md:text-3xl">Join Our News Letter</h1>
+    <p class="text-sm  md:text-2xl"> Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+    <input type="text" class="border border-black mt-5 p-2 " style="width: 80%;">
+    <br>
+    <button class="bg-black text-white mt-5 p-2 underline">SUBSCRIBE</button>
+
+  </section>
+
+ <section class="mb-7  p-10 mt-5 text-sm md:text-xl" style="background-color: #1D232C; color: white;">
+    <h1 Class="font-bold text-xl mb-5 md:text-3xl ">NOSTRA</h1>
+    <p> The Standard chunk of Lorem ipsum used since 1500s is reprodused below for those interest</p>
+    <P class="mt-5">@ 2021 Nostra.com</P>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script src="index.js"></script> 
+</body>
+</html>

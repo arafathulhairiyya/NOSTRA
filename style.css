@@ -1,0 +1,376 @@
+
+body {
+ 
+  font-family: poppins, sans-serif;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+ 
+
+.slider{
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    position: relative;
+     border-radius: 5px;
+
+}
+
+.slider-image-container{
+    display:flex ;
+    transition: 2s;
+}
+
+.slider-image{
+    width: 100vw;
+    
+    
+}
+.slider-image img{
+    width: 1121px;
+    height: 373px;
+    object-fit: cover;
+}
+
+.slider-left-button{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    z-index: 1;
+}
+
+.slider-left-button i{
+    font-size: 10vw;
+    
+}
+.slider-right-button{
+    position: absolute;
+    top: 35%;
+    right: 5%;
+}
+.slider-right-button i{
+    font-size: 10vw;
+}
+.slider-content{
+    position: absolute;
+    color: white;
+    text-align: center;
+     width: 100%;
+     top: 20%;
+}
+.slider-content h1{
+    font-size: 5vw;
+   
+}
+.slider-content button{
+   padding: 10px 15px 10px 15px;
+   margin-top: 10px;
+   color: black;
+   background-color: white;
+
+}
+.slider-content button:hover{
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.brands img{
+  width:5vw ;
+
+
+}
+.brand-images p{
+  font-size: 1.1rem;
+  
+}
+
+
+  
+
+
+.brands h1{
+ font-weight: bold;
+ font-size: 1.5rem;
+ margin-top: 20px;
+ 
+}
+.brand-images{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8px;
+}
+
+.experience{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: xx-small;
+  padding: 10px;
+  align-items: center;
+  gap: 35px;
+}
+.experience h1{
+    width: 50%;
+    font-size: 2rem ;
+    font-weight: bold;
+}
+.experience p{
+    width: 60%;
+    font-size: 1.5rem;
+    margin-left: 35px;
+    
+}
+.promises{
+    display: flex;
+    justify-content: space-around;
+    font-size: xx-small;
+    margin-top: 20px;
+   
+    
+
+}
+.originalproducts{
+    display: flex-column;
+    justify-content: center;
+    align-items: center;
+     background-color: #F2F4F7;
+     margin: 10px;
+     border-radius: 10px;
+        padding: 10px;
+
+}
+.originalproducts h3{
+    font-weight: bold ;
+}
+.new-arrival-cards{
+    display: flex ;
+    justify-content: space-between;
+gap: 15px;
+position: relative;
+
+
+}
+.card{
+    position: relative;
+}
+
+.card img{
+    width: 250px;
+    border-radius: 10px;
+    
+}
+.card button{
+    position: absolute;
+    top:50%;
+    background-color:white;
+    color: black;
+    z-index: 2; 
+border-radius: 15px;
+    padding:0px 10px 0px 10px;
+    font-size: 1rem;
+    margin-left: 15px;
+
+}
+.overlay {
+  position: absolute;
+  border-radius: 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.most-wanted-cards{
+  
+  display: flex;
+  overflow-x: auto; 
+  gap: 16px;        
+  padding: 16px;
+  height: auto;    
+  scroll-behavior: smooth;
+  white-space: nowrap;
+  
+}
+
+.-card {
+  flex: 0 0 auto;    
+  width: 150px;
+  position: relative;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  text-align: center;
+  padding: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  
+  
+  
+  
+}
+.-card img {
+  width: 100%;
+  height: auto;
+  max-height: 100px;
+  object-fit: contain;
+  position: relative;
+}
+
+.-card p{
+    position: absolute;
+    background-color: red;
+    padding: 2px 5px 2px 5px;
+    color: white;
+    border-radius: 5px;
+    top:5px;
+    left:5px;
+}
+.heart{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    
+}
+.most-wanted h1{
+    font-size: 1 rem;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.offer2{
+    display: flex;
+    padding: 10px;
+    background-color: #1D232C;
+    gap: 20px;
+    margin: 20px;
+    align-items: center;
+
+}
+
+.offer2 img{
+    width:50% ;
+    height:20% ;
+    object-fit: cover;
+margin: 10PX;
+
+    
+}
+.offer-content{
+    color: white;
+    font-size: 10px;
+}
+.offer-content button{
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    
+    margin-top: 10px;
+}
+.offer-content h1{
+    font-size:1rem ;
+}
+.offer-content h1,h2{
+    font-weight: bold;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#newarrival{
+
+}
+#mostwanted{
+    
+}
+
+
+
+
+
+
+
+
+@media screen  and (min-width:764px){
+.card button{
+    padding: 10px 15px 10px 15px;
+    font-size: 1.2rem;
+
+   
+}
+.most-wanted h1{
+    font-size: 1.5rem;
+    
+}
+.-card{
+   width: 300px;
+    margin: 10px;
+    height: 200px;
+}
+.-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    max-height: 160px;
+    display: block;
+    margin: 0, auto;
+    
+
+}
+.offer-content{
+    margin: 10%;
+    font-size: 2rem;
+}
+.offer-content h1{
+    font-size: 2rem;
+}
+
+
+
+}
+@media screen and (max-width: 764px)
+     {
+    .card button{
+        padding: 5px 10px 5px 10px;
+        font-size: xx-small;
+        margin-left: 5px;
+    }
+    .experience h1{
+        font-size: 0.8rem;
+        width: 40%;
+    }
+    .experience p{
+        font-size: xx-small;
+        width: 60%;
+    }
+    .brands p{
+        font-size: xx-small;
+    }
+    .brands h1{
+        font-size: 1.2rem;
+    }
+    .-card{
+        flex-basis: 30%
+    }
+   
+}
+
+
+
+ 
